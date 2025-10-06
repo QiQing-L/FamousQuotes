@@ -23,6 +23,7 @@ public class FamousQuotes {
            System.out.println(famousQuotes[input - 1]);
        }catch (Exception e){
            System.out.println("Error, please enter only number 1-10." );
+           scanner.nextLine();
        }
 
 
